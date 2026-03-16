@@ -23,6 +23,11 @@ network_configuration:
                 network_details:
                   attached_resource_key: VCN-HUB-KEY
                   type: VCN
+              DRG-CHANNELS-NP-VCN-H-ATTACH-KEY:
+                display_name: drg-channels-np-vcn-h-attach
+                network_details:
+                  attached_resource_key: VCN-CHANNELS-NP-KEY
+                  type: VCN
       vcns:
         VCN-HUB-KEY:
           block_nat_traffic: false
